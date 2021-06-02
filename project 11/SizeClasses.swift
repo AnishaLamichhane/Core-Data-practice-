@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct SizeClasses: View {
+    @Environment(\.horizontalSizeClass) var sizeClass
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if sizeClass == .compact {
+            return AnyView ( HStack {
+                Text("Active size classes")
+                Text("COMPACT")
+            }
+            .font(.largeTitle)
+            )
+        } else {
+            return AnyView ( HStack {
+                Text("Active size classes")
+                Text("REGULAR")
+            }
+            .font(.largeTitle)
+            )
+        }
     }
 }
 
