@@ -13,6 +13,8 @@
 		AFB311C32665F9DA002C389B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB311C22665F9DA002C389B /* Preview Assets.xcassets */; };
 		AFB311C52665F9DA002C389B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB311C42665F9DA002C389B /* Persistence.swift */; };
 		AFB311C82665F9DA002C389B /* project_11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB311C62665F9DA002C389B /* project_11.xcdatamodeld */; };
+		AFB311D026671A4E002C389B /* @BindingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB311CF26671A4E002C389B /* @BindingProperty.swift */; };
+		AFB311D226671AD8002C389B /* SizeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB311D126671AD8002C389B /* SizeClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AFB311C42665F9DA002C389B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AFB311C72665F9DA002C389B /* project_11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = project_11.xcdatamodel; sourceTree = "<group>"; };
 		AFB311C92665F9DA002C389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB311CF26671A4E002C389B /* @BindingProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@BindingProperty.swift"; sourceTree = "<group>"; };
+		AFB311D126671AD8002C389B /* SizeClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				AFB311BB2665F9D7002C389B /* project_11App.swift */,
 				AFB311BD2665F9D7002C389B /* ContentView.swift */,
+				AFB311CF26671A4E002C389B /* @BindingProperty.swift */,
+				AFB311D126671AD8002C389B /* SizeClasses.swift */,
 				AFB311BF2665F9DA002C389B /* Assets.xcassets */,
 				AFB311C42665F9DA002C389B /* Persistence.swift */,
 				AFB311C92665F9DA002C389B /* Info.plist */,
@@ -147,7 +153,9 @@
 				AFB311C52665F9DA002C389B /* Persistence.swift in Sources */,
 				AFB311BE2665F9D7002C389B /* ContentView.swift in Sources */,
 				AFB311BC2665F9D7002C389B /* project_11App.swift in Sources */,
+				AFB311D026671A4E002C389B /* @BindingProperty.swift in Sources */,
 				AFB311C82665F9DA002C389B /* project_11.xcdatamodeld in Sources */,
+				AFB311D226671AD8002C389B /* SizeClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
